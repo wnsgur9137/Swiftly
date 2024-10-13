@@ -11,10 +11,3 @@ class Swiftly {
 
     
 }
-
-
-public extension String {
-    
-}
-
-

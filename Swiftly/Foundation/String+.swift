@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     var hasLetters: Bool {
         get {
             return rangeOfCharacter(from: .letters, options: .numeric, range: nil) != nil

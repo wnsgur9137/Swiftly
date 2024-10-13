@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
     var asImage: UIImage? {
         get {
             return UIImage(named: self)

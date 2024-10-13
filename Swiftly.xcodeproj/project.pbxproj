@@ -19,9 +19,10 @@
 		66F6D3AE2CBA9F19001EC6BC /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3AD2CBA9F19001EC6BC /* String+.swift */; };
 		66F6D3B22CBB99F0001EC6BC /* String+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B12CBB99F0001EC6BC /* String+UIImage.swift */; };
 		66F6D3B42CBB9A63001EC6BC /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B32CBB9A63001EC6BC /* DateFormat.swift */; };
-		66F6D3B62CBB9B7F001EC6BC /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B52CBB9B7F001EC6BC /* TimeZone.swift */; };
-		66F6D3B82CBB9C25001EC6BC /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B72CBB9C25001EC6BC /* Locale.swift */; };
+		66F6D3B62CBB9B7F001EC6BC /* TimeZone+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B52CBB9B7F001EC6BC /* TimeZone+.swift */; };
+		66F6D3B82CBB9C25001EC6BC /* Locale+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B72CBB9C25001EC6BC /* Locale+.swift */; };
 		66F6D3BA2CBB9C84001EC6BC /* TimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B92CBB9C84001EC6BC /* TimeInterval+.swift */; };
+		66F6D3BC2CBB9D70001EC6BC /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3BB2CBB9D70001EC6BC /* DateFormatter+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,9 +51,10 @@
 		66F6D3AD2CBA9F19001EC6BC /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		66F6D3B12CBB99F0001EC6BC /* String+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UIImage.swift"; sourceTree = "<group>"; };
 		66F6D3B32CBB9A63001EC6BC /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
-		66F6D3B52CBB9B7F001EC6BC /* TimeZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZone.swift; sourceTree = "<group>"; };
-		66F6D3B72CBB9C25001EC6BC /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		66F6D3B52CBB9B7F001EC6BC /* TimeZone+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+.swift"; sourceTree = "<group>"; };
+		66F6D3B72CBB9C25001EC6BC /* Locale+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+.swift"; sourceTree = "<group>"; };
 		66F6D3B92CBB9C84001EC6BC /* TimeInterval+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+.swift"; sourceTree = "<group>"; };
+		66F6D3BB2CBB9D70001EC6BC /* DateFormatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +90,7 @@
 				666F49E32CAEDF7C00D2469F /* Swiftly.swift */,
 				66F6D3B02CBA9F2D001EC6BC /* Foundation */,
 				66F6D3AF2CBA9F28001EC6BC /* UIKit */,
-				66F6D3B32CBB9A63001EC6BC /* DateFormat.swift */,
-				66F6D3B52CBB9B7F001EC6BC /* TimeZone.swift */,
-				66F6D3B72CBB9C25001EC6BC /* Locale.swift */,
+				66F6D3BD2CBB9D9E001EC6BC /* Date */,
 			);
 			path = Swiftly;
 			sourceTree = "<group>";
@@ -118,6 +118,17 @@
 				66F6D3B92CBB9C84001EC6BC /* TimeInterval+.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		66F6D3BD2CBB9D9E001EC6BC /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				66F6D3B32CBB9A63001EC6BC /* DateFormat.swift */,
+				66F6D3BB2CBB9D70001EC6BC /* DateFormatter+.swift */,
+				66F6D3B52CBB9B7F001EC6BC /* TimeZone+.swift */,
+				66F6D3B72CBB9C25001EC6BC /* Locale+.swift */,
+			);
+			path = Date;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F6D3632CBA9B57001EC6BC /* CGColor+UIColor.swift in Sources */,
-				66F6D3B82CBB9C25001EC6BC /* Locale.swift in Sources */,
+				66F6D3B82CBB9C25001EC6BC /* Locale+.swift in Sources */,
 				66F6D3A62CBA9DE3001EC6BC /* Array+.swift in Sources */,
 				66F6D3B42CBB9A63001EC6BC /* DateFormat.swift in Sources */,
 				66F6D3AE2CBA9F19001EC6BC /* String+.swift in Sources */,
@@ -190,9 +201,10 @@
 				666F49E42CAEDF7C00D2469F /* Swiftly.swift in Sources */,
 				66F6D3A82CBA9DE8001EC6BC /* Array+Equtable.swift in Sources */,
 				66F6D3AA2CBA9E12001EC6BC /* Double+.swift in Sources */,
+				66F6D3BC2CBB9D70001EC6BC /* DateFormatter+.swift in Sources */,
 				66F6D3A22CBA9DD9001EC6BC /* Int+.swift in Sources */,
 				66F6D3B22CBB99F0001EC6BC /* String+UIImage.swift in Sources */,
-				66F6D3B62CBB9B7F001EC6BC /* TimeZone.swift in Sources */,
+				66F6D3B62CBB9B7F001EC6BC /* TimeZone+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
