@@ -23,6 +23,9 @@
 		66F6D3B82CBB9C25001EC6BC /* Locale+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B72CBB9C25001EC6BC /* Locale+.swift */; };
 		66F6D3BA2CBB9C84001EC6BC /* TimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3B92CBB9C84001EC6BC /* TimeInterval+.swift */; };
 		66F6D3BC2CBB9D70001EC6BC /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3BB2CBB9D70001EC6BC /* DateFormatter+.swift */; };
+		66F6D3C32CBBA0ED001EC6BC /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3C22CBBA0ED001EC6BC /* UITableView+.swift */; };
+		66F6D3C52CBBA0F3001EC6BC /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3C42CBBA0F3001EC6BC /* UICollectionView+.swift */; };
+		66F6D3C72CBBA148001EC6BC /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6D3C62CBBA148001EC6BC /* ReusableProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +58,9 @@
 		66F6D3B72CBB9C25001EC6BC /* Locale+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+.swift"; sourceTree = "<group>"; };
 		66F6D3B92CBB9C84001EC6BC /* TimeInterval+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+.swift"; sourceTree = "<group>"; };
 		66F6D3BB2CBB9D70001EC6BC /* DateFormatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+.swift"; sourceTree = "<group>"; };
+		66F6D3C22CBBA0ED001EC6BC /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		66F6D3C42CBBA0F3001EC6BC /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		66F6D3C62CBBA148001EC6BC /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				66F6D3602CBA99D8001EC6BC /* CGFloat+Screen.swift */,
 				66F6D3622CBA9B57001EC6BC /* CGColor+UIColor.swift */,
 				66F6D3B12CBB99F0001EC6BC /* String+UIImage.swift */,
+				66F6D3C22CBBA0ED001EC6BC /* UITableView+.swift */,
+				66F6D3C42CBBA0F3001EC6BC /* UICollectionView+.swift */,
+				66F6D3C62CBBA148001EC6BC /* ReusableProtocol.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 				66F6D3B82CBB9C25001EC6BC /* Locale+.swift in Sources */,
 				66F6D3A62CBA9DE3001EC6BC /* Array+.swift in Sources */,
 				66F6D3B42CBB9A63001EC6BC /* DateFormat.swift in Sources */,
+				66F6D3C52CBBA0F3001EC6BC /* UICollectionView+.swift in Sources */,
 				66F6D3AE2CBA9F19001EC6BC /* String+.swift in Sources */,
 				66F6D3AC2CBA9E2F001EC6BC /* Bool+.swift in Sources */,
 				66F6D3BA2CBB9C84001EC6BC /* TimeInterval+.swift in Sources */,
@@ -200,10 +210,12 @@
 				66F6D3612CBA99D8001EC6BC /* CGFloat+Screen.swift in Sources */,
 				666F49E42CAEDF7C00D2469F /* Swiftly.swift in Sources */,
 				66F6D3A82CBA9DE8001EC6BC /* Array+Equtable.swift in Sources */,
+				66F6D3C32CBBA0ED001EC6BC /* UITableView+.swift in Sources */,
 				66F6D3AA2CBA9E12001EC6BC /* Double+.swift in Sources */,
 				66F6D3BC2CBB9D70001EC6BC /* DateFormatter+.swift in Sources */,
 				66F6D3A22CBA9DD9001EC6BC /* Int+.swift in Sources */,
 				66F6D3B22CBB99F0001EC6BC /* String+UIImage.swift in Sources */,
+				66F6D3C72CBBA148001EC6BC /* ReusableProtocol.swift in Sources */,
 				66F6D3B62CBB9B7F001EC6BC /* TimeZone+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
